@@ -1,0 +1,148 @@
+
+> uigen@0.1.0 dev
+> next dev --turbopack
+
+ ⚠ Port 3000 is in use, using available port 3001 instead.
+   ▲ Next.js 15.3.3 (Turbopack)
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.137.1:3001
+   - Environments: .env
+
+ ✓ Starting...
+ ⚠ Invalid next.config.ts options detected: 
+ ⚠     Unrecognized key(s) in object: 'root' at "turbopack"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Compiled middleware in 304ms
+ ✓ Ready in 1792ms
+ ○ Compiling / ...
+ ✓ Compiled / in 10.7s
+ GET / 200 in 11600ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1104ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 1625ms
+ ○ Compiling /api/chat ...
+ ✓ Compiled /api/chat in 1316ms
+{
+  error: [Error [AI_APICallError]: invalid x-api-key] {
+    cause: undefined,
+    url: 'https://api.anthropic.com/v1/messages',
+    requestBodyValues: {
+      model: 'claude-sonnet-4-6',
+      max_tokens: 10000,
+      temperature: 0,
+      top_k: undefined,
+      top_p: undefined,
+      stop_sequences: undefined,
+      system: [Array],
+      messages: [Array],
+      tools: [Array],
+      tool_choice: [Object],
+      stream: true
+    },
+    statusCode: 401,
+    responseHeaders: {
+      'cf-cache-status': 'DYNAMIC',
+      'cf-ray': 'a0bb0c7bf93cff62-BOM',
+      connection: 'keep-alive',
+      'content-encoding': 'gzip',
+      'content-security-policy': "default-src 'none'; frame-ancestors 'none'",
+      'content-type': 'application/json',
+      date: 'Sun, 14 Jun 2026 17:27:58 GMT',
+      'request-id': 'req_011Cc3YdLqBqQRmaEVUemprf',
+      server: 'cloudflare',
+      'set-cookie': '_cfuvid=sN15cb1W_ebUOiqQP8g6YVJgdAV8oA8fJ5VCFjlRk_c-1781458078.078607-1.0.1.1-meSuwxFSyXruYlkDT70pKOHg_lTrohzPLO98lRi7Wi8; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.anthropic.com',
+      'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding',
+      'x-robots-tag': 'none',
+      'x-should-retry': 'false'
+    },
+    responseBody: '{"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cc3YdLqBqQRmaEVUemprf"}',
+    isRetryable: false,
+    data: { type: 'error', error: [Object] }
+  }
+}
+ POST /api/chat 200 in 2376ms
+{
+  error: [Error [AI_APICallError]: Not Found] {
+    cause: undefined,
+    url: 'https://gateway.bounteous.tools/messages',
+    requestBodyValues: {
+      model: 'claude-sonnet-4-6',
+      max_tokens: 10000,
+      temperature: 0,
+      top_k: undefined,
+      top_p: undefined,
+      stop_sequences: undefined,
+      system: [Array],
+      messages: [Array],
+      tools: [Array],
+      tool_choice: [Object],
+      stream: true
+    },
+    statusCode: 404,
+    responseHeaders: {
+      'alt-svc': 'h3=":443"; ma=2592000',
+      'content-type': 'application/json',
+      date: 'Sun, 14 Jun 2026 17:29:40 GMT, Sun, 14 Jun 2026 17:29:40 GMT',
+      'referrer-policy': 'strict-origin-when-cross-origin',
+      'strict-transport-security': 'max-age=31536000; includeSubDomains',
+      'transfer-encoding': 'chunked',
+      via: '1.1 Caddy',
+      'x-content-type-options': 'nosniff'
+    },
+    responseBody: '{"detail":"Not Found"}',
+    isRetryable: false,
+    data: undefined
+  }
+}
+ POST /api/chat 200 in 1259ms
+[provider] baseURL: https://gateway.bounteous.tools model: claude-sonnet-4-6
+{
+  error: [Error [AI_APICallError]: Not Found] {
+    cause: undefined,
+    url: 'https://gateway.bounteous.tools/messages',
+    requestBodyValues: {
+      model: 'claude-sonnet-4-6',
+      max_tokens: 10000,
+      temperature: 0,
+      top_k: undefined,
+      top_p: undefined,
+      stop_sequences: undefined,
+      system: [Array],
+      messages: [Array],
+      tools: [Array],
+      tool_choice: [Object],
+      stream: true
+    },
+    statusCode: 404,
+    responseHeaders: {
+      'alt-svc': 'h3=":443"; ma=2592000',
+      'content-type': 'application/json',
+      date: 'Sun, 14 Jun 2026 17:33:53 GMT, Sun, 14 Jun 2026 17:33:53 GMT',
+      'referrer-policy': 'strict-origin-when-cross-origin',
+      'strict-transport-security': 'max-age=31536000; includeSubDomains',
+      'transfer-encoding': 'chunked',
+      via: '1.1 Caddy',
+      'x-content-type-options': 'nosniff'
+    },
+    responseBody: '{"detail":"Not Found"}',
+    isRetryable: false,
+    data: undefined
+  }
+}
+ POST /api/chat 200 in 1509ms
+ POST /api/chat 200 in 20034ms
+ POST /api/chat 200 in 21720ms
+ GET / 200 in 602ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 628ms
+ POST /api/chat 200 in 9032ms
+ ✓ Compiled in 365ms
+ ✓ Compiled in 360ms
+ ✓ Compiled in 687ms
+ ✓ Compiled / in 318ms
+ GET / 200 in 651ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 460ms
+ POST /api/chat 200 in 2741ms
+ POST /api/chat 200 in 5102ms
+ POST /api/chat 200 in 5610ms

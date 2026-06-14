@@ -1,0 +1,177 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e48]: Create a pricing card component with a title, price, feature list, and a call-to-action button
+            - img [ref=e51]
+          - generic [ref=e76]:
+            - img [ref=e79]
+            - generic [ref=e84]:
+              - generic [ref=e85]:
+                - img [ref=e89]
+                - generic [ref=e92]: Creating App.jsx
+              - separator [ref=e93]
+              - generic [ref=e94]:
+                - img [ref=e98]
+                - generic [ref=e101]: Creating PricingCard.jsx
+              - separator [ref=e102]
+              - generic [ref=e103]:
+                - paragraph [ref=e104]: "Here's what was built:"
+                - heading "/components/PricingCard.jsx" [level=3] [ref=e105]:
+                  - code [ref=e106]: /components/PricingCard.jsx
+                - paragraph [ref=e107]:
+                  - text: A reusable
+                  - code [ref=e108]: PricingCard
+                  - text: component that accepts a
+                  - code [ref=e109]: plan
+                  - text: "object with:"
+                - list [ref=e110]:
+                  - listitem [ref=e111]:
+                    - strong [ref=e112]: Title
+                    - text: — displayed as a small-caps label
+                  - listitem [ref=e113]:
+                    - strong [ref=e114]: Price
+                    - text: — oversized typographic hero number with period (e.g.
+                    - code [ref=e115]: /mo
+                    - text: )
+                  - listitem [ref=e116]:
+                    - strong [ref=e117]: Description
+                    - text: — a short subtitle beneath the price
+                  - listitem [ref=e118]:
+                    - strong [ref=e119]: Feature list
+                    - text: — each item renders a ✓ check or ✗ cross icon depending on
+                    - code [ref=e120]: included
+                  - listitem [ref=e121]:
+                    - strong [ref=e122]: CTA button
+                    - text: — full-width, styled to match the card's theme
+                - heading "/App.jsx" [level=3] [ref=e123]:
+                  - code [ref=e124]: /App.jsx
+                - paragraph [ref=e125]:
+                  - text: Renders three plans —
+                  - strong [ref=e126]: Starter
+                  - text: ","
+                  - strong [ref=e127]: Pro
+                  - text: ", and"
+                  - strong [ref=e128]: Scale
+                  - text: — in a flush grid with shared borders (no card shadows).
+                - heading "Design choices" [level=3] [ref=e129]
+                - list [ref=e130]:
+                  - listitem [ref=e131]:
+                    - strong [ref=e132]: "Palette:"
+                    - text: warm
+                    - code [ref=e133]: stone-50
+                    - text: background,
+                    - code [ref=e134]: stone-900
+                    - text: dark card for the featured plan,
+                    - code [ref=e135]: amber-400
+                    - text: as the single vivid accent
+                  - listitem [ref=e136]:
+                    - strong [ref=e137]: "Typography-driven:"
+                    - text: the price is a massive
+                    - code [ref=e138]: text-6xl font-black
+                    - text: numeral — no decorative graphics needed
+                  - listitem [ref=e139]:
+                    - strong [ref=e140]: "Structure over shadow:"
+                    - text: cards share a
+                    - code [ref=e141]: 1px
+                    - text: border grid instead of drop shadows
+                  - listitem [ref=e142]:
+                    - strong [ref=e143]: "Featured callout:"
+                    - text: a sharp corner
+                    - code [ref=e144]: amber-400
+                    - text: badge instead of a scaled/floated card
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [selected] [ref=e31]
+          - tab "Code" [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - iframe [ref=e145]:
+        - main [ref=f5e3]:
+          - generic [ref=f5e4]:
+            - paragraph [ref=f5e5]: Pricing
+            - heading "Simple, honest pricing." [level=1] [ref=f5e6]
+            - paragraph [ref=f5e7]: No hidden fees. No surprise bills. Pick the plan that fits and upgrade any time.
+          - generic [ref=f5e8]:
+            - generic [ref=f5e9]:
+              - paragraph [ref=f5e10]: Starter
+              - generic [ref=f5e11]:
+                - generic [ref=f5e12]: $12
+                - generic [ref=f5e13]: /mo
+              - paragraph [ref=f5e14]: For individuals getting off the ground.
+              - list [ref=f5e16]:
+                - listitem [ref=f5e17]:
+                  - img [ref=f5e19]
+                  - generic [ref=f5e21]: 5 projects
+                - listitem [ref=f5e22]:
+                  - img [ref=f5e24]
+                  - generic [ref=f5e26]: 10 GB storage
+                - listitem [ref=f5e27]:
+                  - img [ref=f5e29]
+                  - generic [ref=f5e31]: Basic analytics
+                - listitem [ref=f5e32]:
+                  - img [ref=f5e34]
+                  - generic [ref=f5e37]: Priority support
+                - listitem [ref=f5e38]:
+                  - img [ref=f5e40]
+                  - generic [ref=f5e43]: Custom domain
+              - button "Get started" [ref=f5e44] [cursor=pointer]
+            - generic [ref=f5e45]:
+              - generic [ref=f5e47]: Most Popular
+              - paragraph [ref=f5e48]: Pro
+              - generic [ref=f5e49]:
+                - generic [ref=f5e50]: $38
+                - generic [ref=f5e51]: /mo
+              - paragraph [ref=f5e52]: For teams that need more power and flexibility.
+              - list [ref=f5e54]:
+                - listitem [ref=f5e55]:
+                  - img [ref=f5e57]
+                  - generic [ref=f5e59]: Unlimited projects
+                - listitem [ref=f5e60]:
+                  - img [ref=f5e62]
+                  - generic [ref=f5e64]: 100 GB storage
+                - listitem [ref=f5e65]:
+                  - img [ref=f5e67]
+                  - generic [ref=f5e69]: Advanced analytics
+                - listitem [ref=f5e70]:
+                  - img [ref=f5e72]
+                  - generic [ref=f5e74]: Priority support
+                - listitem [ref=f5e75]:
+                  - img [ref=f5e77]
+                  - generic [ref=f5e80]: Custom domain
+              - button "Start free trial" [ref=f5e81] [cursor=pointer]
+            - generic [ref=f5e82]:
+              - paragraph [ref=f5e83]: Scale
+              - generic [ref=f5e84]:
+                - generic [ref=f5e85]: $79
+                - generic [ref=f5e86]: /mo
+              - paragraph [ref=f5e87]: For organizations operating at scale.
+              - list [ref=f5e89]:
+                - listitem [ref=f5e90]:
+                  - img [ref=f5e92]
+                  - generic [ref=f5e94]: Unlimited projects
+                - listitem [ref=f5e95]:
+                  - img [ref=f5e97]
+                  - generic [ref=f5e99]: 1 TB storage
+                - listitem [ref=f5e100]:
+                  - img [ref=f5e102]
+                  - generic [ref=f5e104]: Advanced analytics
+                - listitem [ref=f5e105]:
+                  - img [ref=f5e107]
+                  - generic [ref=f5e109]: Priority support
+                - listitem [ref=f5e110]:
+                  - img [ref=f5e112]
+                  - generic [ref=f5e114]: Custom domain
+              - button "Talk to sales" [ref=f5e115] [cursor=pointer]
+          - paragraph [ref=f5e116]: All plans include a 14-day free trial. No credit card required.
+  - alert [ref=e75]

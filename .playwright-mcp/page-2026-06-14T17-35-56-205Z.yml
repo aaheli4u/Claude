@@ -1,0 +1,93 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e48]: create a button component
+            - img [ref=e51]
+          - generic [ref=e63]:
+            - generic [ref=e66]: create a button component
+            - img [ref=e69]
+          - generic [ref=e72]:
+            - generic [ref=e75]: create a button component
+            - img [ref=e78]
+          - generic [ref=e81]:
+            - generic [ref=e84]: create a button component
+            - img [ref=e87]
+          - generic [ref=e103]:
+            - img [ref=e106]
+            - generic [ref=e111]:
+              - generic [ref=e114]: str_replace_editor
+              - separator [ref=e115]
+              - generic [ref=e118]: str_replace_editor
+              - separator [ref=e119]
+              - generic [ref=e120]:
+                - paragraph [ref=e121]: "Here's what was built:"
+                - paragraph [ref=e122]:
+                  - strong [ref=e123]:
+                    - code [ref=e124]: /components/Button.jsx
+                  - text: — A reusable
+                  - code [ref=e125]: Button
+                  - text: "component with:"
+                - list [ref=e126]:
+                  - listitem [ref=e127]:
+                    - strong [ref=e128]:
+                      - code [ref=e129]: variant
+                    - text: prop —
+                    - code [ref=e130]: primary
+                    - text: ","
+                    - code [ref=e131]: secondary
+                    - text: ","
+                    - code [ref=e132]: danger
+                    - text: ","
+                    - code [ref=e133]: ghost
+                    - emphasis [ref=e134]:
+                      - text: "(default:"
+                      - code [ref=e135]: primary
+                      - text: )
+                  - listitem [ref=e136]:
+                    - strong [ref=e137]:
+                      - code [ref=e138]: size
+                    - text: prop —
+                    - code [ref=e139]: sm
+                    - text: ","
+                    - code [ref=e140]: md
+                    - text: ","
+                    - code [ref=e141]: lg
+                    - emphasis [ref=e142]:
+                      - text: "(default:"
+                      - code [ref=e143]: md
+                      - text: )
+                  - listitem [ref=e144]:
+                    - strong [ref=e145]:
+                      - code [ref=e146]: disabled
+                    - text: prop — dims the button and blocks interaction
+                  - listitem [ref=e147]:
+                    - strong [ref=e148]:
+                      - code [ref=e149]: onClick
+                    - text: "&"
+                    - strong [ref=e150]:
+                      - code [ref=e151]: className
+                    - text: props for extensibility
+                - paragraph [ref=e152]:
+                  - strong [ref=e153]:
+                    - code [ref=e154]: /App.jsx
+                  - text: — A showcase of all variants, sizes, and disabled states.
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [selected] [ref=e31]
+          - tab "Code" [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - iframe [ref=e155]:
+        - button [ref=f3e3] [cursor=pointer]
+  - alert [ref=e62]

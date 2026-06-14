@@ -1,0 +1,188 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - generic [ref=e56]: Create a pricing card component with a title, price, feature list, and a call-to-action button
+            - img [ref=e59]
+          - generic [ref=e98]:
+            - img [ref=e101]
+            - generic [ref=e106]:
+              - generic [ref=e107]:
+                - img [ref=e111]
+                - generic [ref=e114]: Creating App.jsx
+              - separator [ref=e115]
+              - generic [ref=e116]:
+                - img [ref=e120]
+                - generic [ref=e123]: Creating PricingCard.jsx
+              - separator [ref=e124]
+              - generic [ref=e125]:
+                - paragraph [ref=e126]: "Here's what was built:"
+                - heading "/components/PricingCard.jsx" [level=3] [ref=e127]:
+                  - code [ref=e156]: /components/PricingCard.jsx
+                - paragraph [ref=e129]:
+                  - text: "A reusable card component that accepts these props: | Prop | Type | Description | |---|---|---| |"
+                  - code [ref=e157]: title
+                  - text: "|"
+                  - code [ref=e158]: string
+                  - text: "| Plan name | |"
+                  - code [ref=e159]: price
+                  - text: "|"
+                  - code [ref=e160]: number
+                  - text: "| Monthly price | |"
+                  - code [ref=e161]: period
+                  - text: "|"
+                  - code [ref=e162]: string
+                  - text: "| Billing period label | |"
+                  - code [ref=e163]: description
+                  - text: "|"
+                  - code [ref=e164]: string
+                  - text: "| Short plan summary | |"
+                  - code [ref=e165]: features
+                  - text: "|"
+                  - code [ref=e166]: "{ text, included }[]"
+                  - text: "| Feature list with included flags | |"
+                  - code [ref=e167]: cta
+                  - text: "|"
+                  - code [ref=e168]: string
+                  - text: "| Button label | |"
+                  - code [ref=e169]: highlighted
+                  - text: "|"
+                  - code [ref=e170]: boolean
+                  - text: "| Enables the featured/promoted style | |"
+                  - code [ref=e171]: badge
+                  - text: "|"
+                  - code [ref=e172]: string \| null
+                  - text: "| Optional floating badge (e.g. \"Most Popular\") |"
+                - heading "Key design details:" [level=3] [ref=e146]
+                - list [ref=e147]:
+                  - listitem [ref=e148]:
+                    - text: 🟣
+                    - strong [ref=e149]: Highlighted card
+                    - text: scales up slightly and uses a purple theme with a glowing ring
+                  - listitem [ref=e150]:
+                    - text: 🏷️
+                    - strong [ref=e151]: Badge
+                    - text: floats above the card on an absolute position
+                  - listitem [ref=e173]:
+                    - text: ✅ / ❌
+                    - strong [ref=e174]: Feature icons
+                    - text: — checkmarks for included features, strikethrough + X for excluded ones
+                  - listitem [ref=e175]:
+                    - text: 🎨
+                    - strong [ref=e176]: Dark gradient background
+                    - text: with
+                    - code [ref=e177]: slate
+                    - text: +
+                    - code [ref=e178]: purple
+                    - text: tones
+                  - listitem [ref=e179]:
+                    - text: 🖱️
+                    - strong [ref=e180]: Hover animation
+                    - text: lifts each card on hover with a smooth translate
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [selected] [ref=e31]
+          - tab "Code" [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - iframe [ref=e97]:
+        - generic [ref=f2e3]:
+          - generic [ref=f2e4]:
+            - text: Pricing Plans
+            - heading "Simple, Transparent Pricing" [level=1] [ref=f2e5]
+            - paragraph [ref=f2e6]: Choose the plan that fits your needs. Upgrade or downgrade at any time, no hidden fees.
+          - generic [ref=f2e7]:
+            - generic [ref=f2e8]:
+              - generic [ref=f2e9]:
+                - heading "Starter" [level=2] [ref=f2e10]
+                - paragraph [ref=f2e11]: Perfect for individuals and small projects.
+              - generic [ref=f2e12]:
+                - generic [ref=f2e13]: $9
+                - generic [ref=f2e14]: / month
+              - list [ref=f2e15]:
+                - listitem [ref=f2e16]:
+                  - img [ref=f2e18]
+                  - generic [ref=f2e20]: 5 Projects
+                - listitem [ref=f2e21]:
+                  - img [ref=f2e23]
+                  - generic [ref=f2e25]: 10 GB Storage
+                - listitem [ref=f2e26]:
+                  - img [ref=f2e28]
+                  - generic [ref=f2e30]: Basic Analytics
+                - listitem [ref=f2e31]:
+                  - img [ref=f2e33]
+                  - generic [ref=f2e35]: Email Support
+                - listitem [ref=f2e36]:
+                  - img [ref=f2e38]
+                  - generic [ref=f2e40]: Custom Domain
+                - listitem [ref=f2e41]:
+                  - img [ref=f2e43]
+                  - generic [ref=f2e45]: Priority Support
+              - button "Get Started" [ref=f2e46] [cursor=pointer]
+            - generic [ref=f2e47]:
+              - generic [ref=f2e48]: Most Popular
+              - generic [ref=f2e49]:
+                - heading "Pro" [level=2] [ref=f2e50]
+                - paragraph [ref=f2e51]: Great for growing teams and businesses.
+              - generic [ref=f2e52]:
+                - generic [ref=f2e53]: $29
+                - generic [ref=f2e54]: / month
+              - list [ref=f2e55]:
+                - listitem [ref=f2e56]:
+                  - img [ref=f2e58]
+                  - generic [ref=f2e60]: Unlimited Projects
+                - listitem [ref=f2e61]:
+                  - img [ref=f2e63]
+                  - generic [ref=f2e65]: 100 GB Storage
+                - listitem [ref=f2e66]:
+                  - img [ref=f2e68]
+                  - generic [ref=f2e70]: Advanced Analytics
+                - listitem [ref=f2e71]:
+                  - img [ref=f2e73]
+                  - generic [ref=f2e75]: Priority Email Support
+                - listitem [ref=f2e76]:
+                  - img [ref=f2e78]
+                  - generic [ref=f2e80]: Custom Domain
+                - listitem [ref=f2e81]:
+                  - img [ref=f2e83]
+                  - generic [ref=f2e85]: Priority Support
+              - button "Start Free Trial" [ref=f2e86] [cursor=pointer]
+            - generic [ref=f2e87]:
+              - generic [ref=f2e88]:
+                - heading "Enterprise" [level=2] [ref=f2e89]
+                - paragraph [ref=f2e90]: For large-scale operations and enterprises.
+              - generic [ref=f2e91]:
+                - generic [ref=f2e92]: $79
+                - generic [ref=f2e93]: / month
+              - list [ref=f2e94]:
+                - listitem [ref=f2e95]:
+                  - img [ref=f2e97]
+                  - generic [ref=f2e99]: Unlimited Projects
+                - listitem [ref=f2e100]:
+                  - img [ref=f2e102]
+                  - generic [ref=f2e104]: 1 TB Storage
+                - listitem [ref=f2e105]:
+                  - img [ref=f2e107]
+                  - generic [ref=f2e109]: Custom Analytics
+                - listitem [ref=f2e110]:
+                  - img [ref=f2e112]
+                  - generic [ref=f2e114]: 24/7 Phone Support
+                - listitem [ref=f2e115]:
+                  - img [ref=f2e117]
+                  - generic [ref=f2e119]: Custom Domain
+                - listitem [ref=f2e120]:
+                  - img [ref=f2e122]
+                  - generic [ref=f2e124]: Priority Support
+              - button "Contact Sales" [ref=f2e125] [cursor=pointer]
+          - paragraph [ref=f2e126]: All plans include a 14-day free trial. No credit card required.
+  - alert [ref=e46]
