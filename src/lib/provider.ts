@@ -1,11 +1,11 @@
-import { anthropic } from "@ai-sdk/anthropic";
+import { createAnthropic } from "@ai-sdk/anthropic";
 import {
   LanguageModelV1,
   LanguageModelV1StreamPart,
   LanguageModelV1Message,
 } from "@ai-sdk/provider";
 
-const MODEL = "claude-haiku-4-5";
+const MODEL = process.env.CLAUDE_MODEL || "claude-haiku-4-5";
 
 export class MockLanguageModel implements LanguageModelV1 {
   readonly specificationVersion = "v1" as const;
@@ -518,5 +518,13 @@ export function getLanguageModel() {
     return new MockLanguageModel("mock-" + MODEL);
   }
 
+  const rawBaseURL = process.env.ANTHROPIC_BASE_URL?.replace(/\/$/, "");
+  const baseURL = rawBaseURL
+    ? rawBaseURL.endsWith("/v1") ? rawBaseURL : `${rawBaseURL}/v1`
+    : undefined;
+  const anthropic = createAnthropic({
+    apiKey,
+    ...(baseURL && { baseURL }),
+  });
   return anthropic(MODEL);
 }
