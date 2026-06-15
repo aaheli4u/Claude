@@ -42,6 +42,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          model: claude-sonnet-4-6
 
           custom_instructions: |
             The project is already set up with all dependencies installed. 
